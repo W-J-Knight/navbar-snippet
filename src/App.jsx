@@ -13,6 +13,7 @@ import RootLayout from "./layout/RootLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
+    // <Route element={<RootLayout />} >
     <Route element={<RootLayout />} errorElement={<Error/>}>
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
