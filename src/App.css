@@ -1,10 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* css  variables*/
+/* https://paletton.com/#uid=52R1n0kknbh4HqN6TkjTa3uYV4M */
+:root {
+  --black: #232227;
+  --purple: #5f5a6f;
+  --light-purple: #848093;
+  --green: #19461f;
+  --dark-green: #232b24;
+}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
 .home,
@@ -15,14 +25,14 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--light-purple);
 }
 
 .page-icon {
   margin-left: 1rem;
   font-size: 3rem;
-  color: aqua;
+  color: var(--light-purple);
 }
 
 #error-page {
@@ -31,17 +41,29 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 100vh;
+  font-size: 2rem;
+  background-color: var(--black);
+  color: var(--light-purple);
 }
-
-@media screen and (max-width: 960px) {
+#go-home {
+  color: white;
+}
+@media screen and (max-width: 600px) {
   .home,
   .about,
-  .contact {
+  .contact .error {
     font-size: 2.5rem;
   }
 
   .page-icon {
     margin-left: 1rem;
     font-size: 2.5rem;
+  }
+  #error-page {
+    font-size: 1.2rem;
+  }
+  #go-home {
+    font-size: 1.8rem;
   }
 }

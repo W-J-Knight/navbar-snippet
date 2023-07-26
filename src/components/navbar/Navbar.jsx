@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import classes from "./Navbar.module.css";
-import { GiRocketThruster, GiAxeSword } from "react-icons/gi";
+import { GiAxeSword } from "react-icons/gi";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
