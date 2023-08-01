@@ -1,8 +1,7 @@
 # Navbar-Snippet
 
-<!-- ![Project Image](./public/Navbar-Snippet.png) -->
+
 <img src="./public/Navbar-Snippet.png" alt="drawing" width="300"/>
-<!-- > This is a ReadMe template to help save you time and effort. -->
 
 ---
 
@@ -18,8 +17,7 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
-<!-- 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects. -->
+
 This code snippet to save time the navbar.
 
 #### Technologies
